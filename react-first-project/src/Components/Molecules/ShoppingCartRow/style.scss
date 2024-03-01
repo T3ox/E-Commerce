@@ -1,0 +1,52 @@
+tbody {
+    tr {
+        vertical-align: baseline;
+        height: 220px;
+
+        td {
+            border: 0;
+            text-align: center;
+            vertical-align: middle;
+
+            img {
+                height: auto;
+                width: 120px !important;
+            }
+        }
+
+        #product-name {
+            max-width: 300px
+        }
+
+        #product-qty {
+            .quantity-selector {
+                display: flex;
+                align-items: center;
+
+                input {
+                    width: 2rem;
+                    text-align: center;
+                }
+
+                button {
+                    margin: 0 5px;
+                    width: 35px;
+                }
+            }
+
+
+            input[type="number"]::-webkit-inner-spin-button,
+            input[type="number"]::-webkit-outer-spin-button {
+                -webkit-appearance: none;
+                margin: 0;
+                display: none;
+            }
+        }
+
+        #product-price {
+            min-width: 100px;
+        }
+
+
+    }
+}

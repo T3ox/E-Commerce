@@ -1,0 +1,19 @@
+@import "../../../variables_mixin";
+
+.product-card {
+    background-color: $cardBackgroundColor;
+    max-height: 600px;
+    padding: 10px;
+    position: relative;
+
+    .product-image {
+        width: 70%;
+        height: 300px;
+        display: block;
+        margin: auto auto 20px auto;
+    }
+}
+
+.overlay {
+    z-index: 999;
+}

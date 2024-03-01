@@ -1,0 +1,11 @@
+@import "../../../variables_mixin";
+
+.stars-container {
+    @include flexContainer(center, flex-start);
+    color: $loginThirdColor;
+
+    .counter {
+        color: #828282;
+        margin-left: 10px;
+    }
+}

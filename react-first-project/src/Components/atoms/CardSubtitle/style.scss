@@ -1,0 +1,6 @@
+@import "../../../variables_mixin";
+
+.card-subtitle {
+    @include cardText(2, $cardSubtitleColor, cursive, 0.9em);
+    margin: 15px 5px 10px 5px;
+}

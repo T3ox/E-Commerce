@@ -1,0 +1,29 @@
+@import "../../../variables_mixin";
+@import "bootstrap/dist/css/bootstrap.css";
+
+//MIXIN
+@mixin customButton($backgroundColor: transparent) {
+    background: $backgroundColor;
+    user-select: none;
+    font-weight: 600 !important;
+    padding: 12px 15px !important;
+}
+
+@mixin buttonDisabled {
+    opacity: 0.5;
+    cursor: default;
+}
+
+//CLASSES
+.custom-button {
+    @include customButton($buttonBackgroundColor);
+}
+
+.disabled-button {
+    @include customButton($buttonBackgroundColor);
+    @include buttonDisabled;
+}
+
+.button-form {
+    @include customButton(linear-gradient(157deg, $loginFirstColor 50%, $loginSecondColor 100%));
+}

@@ -1,0 +1,10 @@
+@import "../../../variables_mixin";
+
+.card-title {
+    @include cardText(1, $cardTitleColor, Helvetica, 1em);
+    margin: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+

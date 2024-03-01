@@ -1,0 +1,22 @@
+.checkout-products {
+    width: 100%;
+
+    td {
+        padding: 0.5rem;
+        height: 100%;
+
+        img {
+            height: auto;
+            width: 150px !important;
+        }
+    }
+
+    td:nth-child(2) {
+        max-width: 200px;
+    }
+
+    td:nth-child(3) {
+        width: 3rem;
+    }
+
+}

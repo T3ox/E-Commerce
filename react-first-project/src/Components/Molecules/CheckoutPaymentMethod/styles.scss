@@ -1,0 +1,18 @@
+.container-payment {
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .payment-methods {
+        width: 90%;
+    }
+}
+
+@media (max-width: 768px) {
+    .container-payment {
+        height: auto;
+    }
+}
+

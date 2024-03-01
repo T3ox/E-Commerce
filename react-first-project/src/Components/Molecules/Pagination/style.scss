@@ -1,0 +1,9 @@
+@import "../../../variables_mixin";
+
+.pagination {
+    @include flexContainer(center, center);
+    gap: 20px;
+    list-style: none;
+    position: relative;
+    top: 60px
+}

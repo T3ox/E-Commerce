@@ -1,0 +1,31 @@
+@import "../../../variables_mixin.scss";
+
+.input-group {
+    position: relative;
+    height: 40px;
+    width: 100%;
+
+    .input-field::placeholder {
+        color: $loginSecondColor;
+    }
+
+    .input-field:focus {
+        outline: none;
+    }
+
+    button {
+        position: relative;
+        right: 10px;
+    }
+
+    .clickable {
+        cursor: default !important;
+    }
+}
+
+.input-group:focus-within {
+    outline: none;
+    border: 1px solid rgb(252, 194, 79) !important;
+}
+
+
